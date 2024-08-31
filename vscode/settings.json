@@ -1,0 +1,150 @@
+{
+    "editor.formatOnSave": true,
+    "terminal.integrated.tabs.enabled": true,
+    "workbench.editor.showTabs": "single",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "editor.minimap.enabled": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "codesnap.backgroundColor": "",
+    "codesnap.containerPadding": "",
+    "codesnap.showWindowTitle": true,
+    "codesnap.transparentBackground": true,
+    "codesnap.target": "window",
+    "notebook.lineNumbers": "on",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.iconTheme": "vscode-icons",
+    "blade.format.enable": true,
+    "files.autoSave": "afterDelay",
+
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+
+    "prettier.singleQuote": false,
+    "prettier.jsxSingleQuote": true,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.BracketSameLine": true,
+    "prettier.tabWidth": 4,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "liveServer.settings.port": 3000,
+    "editor.tokenColorCustomizations": {
+        "comments": "#5C6370"
+    },
+    "html.format.wrapLineLength": 130,
+    "prettier.printWidth": 120,
+    "vsicons.dontShowNewVersionMessage": true,
+    "sqltools.results.customization": {},
+    "better-comments.tags": [
+        {
+            "tag": "!",
+            "color": "#FF2D00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "?",
+            "color": "#3498DB",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "//",
+            "color": "#474747",
+            "strikethrough": true,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "todo",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        },
+        {
+            "tag": "*",
+            "color": "#98C379",
+            "strikethrough": false,
+            "underline": false,
+            "backgroundColor": "transparent",
+            "bold": false,
+            "italic": false
+        }
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "[go]": {
+        "editor.defaultFormatter": "golang.go"
+    },
+    "vscode-pets.petType": "cockatiel",
+    "editor.snippetSuggestions": "bottom",
+    "vscode-pets.theme": "forest",
+    "vscode-pets.petSize": "medium",
+    "vscode-pets.petColor": "purple",
+    "redhat.telemetry.enabled": false,
+    "openapi.securityAuditToken": "CiBPL84SLBAdU3fLdDk/1vkr4Hd/jcSkOo0U4Pj2LNNanxIYQ93uWCXk/uVVvyz1Si/J1WpBJ7kUgc1qGnZroQkG6KRYdqpL6UUzruMH+FqdJYrpF8aWSNOlz5c3CxiDjXM7+Rg4RBrnQjGXoK79APxXqnLm+ddaM8BNecB4DF2gPl9bNBkf/I0pV/kJLgQaFmuk638EJ2B2dtSXDqXVFIhl3PCJtqoUnXJcbB2WAPhXyIrd",
+    "git.suggestSmartCommit": false,
+    "[templ]": {
+        "editor.defaultFormatter": "a-h.templ"
+    },
+    "emmet.includeLanguages": {
+        "templ": "html"
+    },
+    "tailwindCSS.includeLanguages": {
+        "templ": "html"
+    },
+
+    // Using the light mode
+    "indentRainbow.indicatorStyle": "light",
+    // we use a simple 1 pixel wide line
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    // the same colors as above but more visible
+    "indentRainbow.colors": [
+        "rgba(255,255,64,0.3)",
+        "rgba(127,255,127,0.3)",
+        "rgba(255,127,255,0.3)",
+        "rgba(79,236,236,0.3)"
+    ],
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "bracket-pair-colorizer-2.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "opacity: 0.5"
+    ],
+    "liveServer.settings.CustomBrowser": "chrome",
+    "workbench.sideBar.location": "right",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-b>": false,
+        "<C-p>": false,
+        "<C-t>": false
+    }
+}
