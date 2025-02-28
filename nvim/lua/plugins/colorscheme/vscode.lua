@@ -1,4 +1,8 @@
 return {
   "Mofiqul/vscode.nvim",
-  opts = { transparent = true },
+  opts = {
+    transparent = true,
+    color_overrides = {
+    }
+  },
 }

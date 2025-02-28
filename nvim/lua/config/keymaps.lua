@@ -19,10 +19,13 @@ local keymap = vim.keymap.set
 -- Press jj fast to exit insert mode
 keymap("i", "jj", "<ESC>", opts)
 
-
 -- Normal --
-local lazyterm = function() LazyVim.terminal(nil, { cwd = LazyVim.root(), float = { noautocmd = false } }) end
+local lazyterm = function()
+  LazyVim.terminal(nil, { cwd = LazyVim.root(), float = { noautocmd = false } })
+end
 keymap("n", "<c-/>", lazyterm, { desc = "Terminal (root)" })
+keymap("n", "<leader>e", "<leader>fE", { remap = true, silent = true, desc = "Explorer NeoTree (cwd)" })
+keymap("n", "<leader>E", "<leader>fe", { remap = true, silent = true, desc = "Explorer NeoTree (Root Dir)" })
 
 -- Terminal --
 keymap("t", "jj", "<c-\\><c-n>", { desc = "Enter Normal Mode" })
