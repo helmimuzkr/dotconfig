@@ -20,5 +20,9 @@ return {
         position = "right",
       },
     },
+    keys = {
+      { "<leader>e", "<leader>fE", remap = true, silent = true, desc = "Explorer NeoTree (cwd)" },
+      { "<leader>E", "<leader>fe", remap = true, silent = true, desc = "Explorer NeoTree (Root Dir)" },
+    },
   },
 }
